@@ -1,0 +1,141 @@
+Age Group,Geographic Area,Category,Number of Responses,Total Responses,Percentage
+Under 5 years,Canada,General Population,1831195,36991980,4.95
+5 to 14 years,Canada,General Population,4181605,36991980,11.30
+15 to 24 years,Canada,General Population,4215230,36991980,11.39
+25 to 44 years,Canada,General Population,9851095,36991980,26.63
+45 years and over,Canada,General Population,16912860,36991980,45.72
+Under 5 years,Newfoundland and Labrador,General Population,18985,510550,3.72
+5 to 14 years,Newfoundland and Labrador,General Population,49205,510550,9.64
+15 to 24 years,Newfoundland and Labrador,General Population,51795,510550,10.14
+25 to 44 years,Newfoundland and Labrador,General Population,112905,510550,22.11
+45 years and over,Newfoundland and Labrador,General Population,277650,510550,54.38
+Under 5 years,Prince Edward Island,General Population,6750,154330,4.37
+5 to 14 years,Prince Edward Island,General Population,16885,154330,10.94
+15 to 24 years,Prince Edward Island,General Population,19130,154330,12.40
+25 to 44 years,Prince Edward Island,General Population,36310,154330,23.53
+45 years and over,Prince Edward Island,General Population,75240,154330,48.75
+Under 5 years,Nova Scotia,General Population,40340,969380,4.16
+5 to 14 years,Nova Scotia,General Population,96370,969380,9.94
+15 to 24 years,Nova Scotia,General Population,106185,969380,10.95
+25 to 44 years,Nova Scotia,General Population,234180,969380,24.16
+45 years and over,Nova Scotia,General Population,492315,969380,50.79
+Under 5 years,New Brunswick,General Population,32280,775610,4.16
+5 to 14 years,New Brunswick,General Population,78845,775610,10.17
+15 to 24 years,New Brunswick,General Population,81215,775610,10.47
+25 to 44 years,New Brunswick,General Population,179110,775610,23.09
+45 years and over,New Brunswick,General Population,404150,775610,52.11
+Under 5 years,Quebec,General Population,422980,8501835,4.98
+5 to 14 years,Quebec,General Population,968380,8501835,11.39
+15 to 24 years,Quebec,General Population,890060,8501835,10.47
+25 to 44 years,Quebec,General Population,2186180,8501835,25.71
+45 years and over,Quebec,General Population,4034230,8501835,47.45
+Under 5 years,Ontario,General Population,683515,14223945,4.81
+5 to 14 years,Ontario,General Population,1568280,14223945,11.03
+15 to 24 years,Ontario,General Population,1697055,14223945,11.93
+25 to 44 years,Ontario,General Population,3794800,14223945,26.68
+45 years and over,Ontario,General Population,6480295,14223945,45.56
+Under 5 years,Manitoba,General Population,80435,1342150,5.99
+5 to 14 years,Manitoba,General Population,172500,1342150,12.85
+15 to 24 years,Manitoba,General Population,172320,1342150,12.84
+25 to 44 years,Manitoba,General Population,356955,1342150,26.60
+45 years and over,Manitoba,General Population,559945,1342150,41.72
+Under 5 years,Saskatchewan,General Population,69455,1132505,6.13
+5 to 14 years,Saskatchewan,General Population,153665,1132505,13.57
+15 to 24 years,Saskatchewan,General Population,135380,1132505,11.95
+25 to 44 years,Saskatchewan,General Population,300885,1132505,26.57
+45 years and over,Saskatchewan,General Population,473120,1132505,41.78
+Under 5 years,Alberta,General Population,250250,4262635,5.87
+5 to 14 years,Alberta,General Population,559395,4262635,13.12
+15 to 24 years,Alberta,General Population,498505,4262635,11.69
+25 to 44 years,Alberta,General Population,1245335,4262635,29.22
+45 years and over,Alberta,General Population,1709150,4262635,40.10
+Under 5 years,British Columbia,General Population,216825,5000880,4.34
+5 to 14 years,British Columbia,General Population,500080,5000880,10.00
+15 to 24 years,British Columbia,General Population,548340,5000880,10.96
+25 to 44 years,British Columbia,General Population,1368765,5000880,27.37
+45 years and over,British Columbia,General Population,2366880,5000880,47.33
+Under 5 years,Yukon,General Population,2175,40230,5.41
+5 to 14 years,Yukon,General Population,4650,40230,11.56
+15 to 24 years,Yukon,General Population,4225,40230,10.50
+25 to 44 years,Yukon,General Population,12385,40230,30.79
+45 years and over,Yukon,General Population,16810,40230,41.78
+Under 5 years,Northwest Territories,General Population,2825,41070,6.88
+5 to 14 years,Northwest Territories,General Population,5650,41070,13.76
+15 to 24 years,Northwest Territories,General Population,5085,41070,12.38
+25 to 44 years,Northwest Territories,General Population,12775,41070,31.11
+45 years and over,Northwest Territories,General Population,14745,41070,35.90
+Under 5 years,Nunavut,General Population,4385,36855,11.90
+5 to 14 years,Nunavut,General Population,7695,36855,20.88
+15 to 24 years,Nunavut,General Population,5945,36855,16.13
+25 to 44 years,Nunavut,General Population,10510,36855,28.52
+45 years and over,Nunavut,General Population,8325,36855,22.59
+Under 5 years,Canada,Foreign-Born Population,748265,8361505,8.95
+5 to 14 years,Canada,Foreign-Born Population,1438440,8361505,17.20
+15 to 24 years,Canada,Foreign-Born Population,1594290,8361505,19.07
+25 to 44 years,Canada,Foreign-Born Population,3783335,8361505,45.25
+45 years and over,Canada,Foreign-Born Population,797180,8361505,9.53
+Under 5 years,Newfoundland and Labrador,Foreign-Born Population,1700,14250,11.93
+5 to 14 years,Newfoundland and Labrador,Foreign-Born Population,2470,14250,17.33
+15 to 24 years,Newfoundland and Labrador,Foreign-Born Population,2335,14250,16.39
+25 to 44 years,Newfoundland and Labrador,Foreign-Born Population,6640,14250,46.60
+45 years and over,Newfoundland and Labrador,Foreign-Born Population,1110,14250,7.79
+Under 5 years,Prince Edward Island,Foreign-Born Population,1130,11765,9.60
+5 to 14 years,Prince Edward Island,Foreign-Born Population,2420,11765,20.57
+15 to 24 years,Prince Edward Island,Foreign-Born Population,1905,11765,16.19
+25 to 44 years,Prince Edward Island,Foreign-Born Population,4900,11765,41.65
+45 years and over,Prince Edward Island,Foreign-Born Population,1405,11765,11.94
+Under 5 years,Nova Scotia,Foreign-Born Population,8390,71565,11.72
+5 to 14 years,Nova Scotia,Foreign-Born Population,13180,71565,18.42
+15 to 24 years,Nova Scotia,Foreign-Born Population,10940,71565,15.29
+25 to 44 years,Nova Scotia,Foreign-Born Population,32955,71565,46.05
+45 years and over,Nova Scotia,Foreign-Born Population,6095,71565,8.52
+Under 5 years,New Brunswick,Foreign-Born Population,5660,44125,12.83
+5 to 14 years,New Brunswick,Foreign-Born Population,9190,44125,20.83
+15 to 24 years,New Brunswick,Foreign-Born Population,6485,44125,14.70
+25 to 44 years,New Brunswick,Foreign-Born Population,19090,44125,43.26
+45 years and over,New Brunswick,Foreign-Born Population,3705,44125,8.40
+Under 5 years,Quebec,Foreign-Born Population,112295,1210600,9.28
+5 to 14 years,Quebec,Foreign-Born Population,201385,1210600,16.64
+15 to 24 years,Quebec,Foreign-Born Population,213035,1210600,17.60
+25 to 44 years,Quebec,Foreign-Born Population,594845,1210600,49.14
+45 years and over,Quebec,Foreign-Born Population,89045,1210600,7.36
+Under 5 years,Ontario,Foreign-Born Population,375395,4206585,8.92
+5 to 14 years,Ontario,Foreign-Born Population,734680,4206585,17.46
+15 to 24 years,Ontario,Foreign-Born Population,840165,4206585,19.97
+25 to 44 years,Ontario,Foreign-Born Population,1851675,4206585,44.02
+45 years and over,Ontario,Foreign-Born Population,404670,4206585,9.62
+Under 5 years,Manitoba,Foreign-Born Population,26725,257620,10.37
+5 to 14 years,Manitoba,Foreign-Born Population,50695,257620,19.68
+15 to 24 years,Manitoba,Foreign-Born Population,45575,257620,17.69
+25 to 44 years,Manitoba,Foreign-Born Population,113910,257620,44.22
+45 years and over,Manitoba,Foreign-Born Population,20710,257620,8.04
+Under 5 years,Saskatchewan,Foreign-Born Population,13370,137620,9.72
+5 to 14 years,Saskatchewan,Foreign-Born Population,26755,137620,19.44
+15 to 24 years,Saskatchewan,Foreign-Born Population,20460,137620,14.87
+25 to 44 years,Saskatchewan,Foreign-Born Population,64955,137620,47.20
+45 years and over,Saskatchewan,Foreign-Born Population,12070,137620,8.77
+Under 5 years,Alberta,Foreign-Born Population,85135,970975,8.77
+5 to 14 years,Alberta,Foreign-Born Population,169075,970975,17.41
+15 to 24 years,Alberta,Foreign-Born Population,175855,970975,18.11
+25 to 44 years,Alberta,Foreign-Born Population,450070,970975,46.35
+45 years and over,Alberta,Foreign-Born Population,90845,970975,9.36
+Under 5 years,British Columbia,Foreign-Born Population,117555,1425715,8.25
+5 to 14 years,British Columbia,Foreign-Born Population,226910,1425715,15.92
+15 to 24 years,British Columbia,Foreign-Born Population,275435,1425715,19.32
+25 to 44 years,British Columbia,Foreign-Born Population,639200,1425715,44.83
+45 years and over,British Columbia,Foreign-Born Population,166605,1425715,11.69
+Under 5 years,Yukon,Foreign-Born Population,455,5385,8.45
+5 to 14 years,Yukon,Foreign-Born Population,840,5385,15.60
+15 to 24 years,Yukon,Foreign-Born Population,1030,5385,19.13
+25 to 44 years,Yukon,Foreign-Born Population,2610,5385,48.47
+45 years and over,Yukon,Foreign-Born Population,445,5385,8.26
+Under 5 years,Northwest Territories,Foreign-Born Population,355,4145,8.56
+5 to 14 years,Northwest Territories,Foreign-Born Population,660,4145,15.92
+15 to 24 years,Northwest Territories,Foreign-Born Population,890,4145,21.47
+25 to 44 years,Northwest Territories,Foreign-Born Population,1870,4145,45.11
+45 years and over,Northwest Territories,Foreign-Born Population,370,4145,8.93
+Under 5 years,Nunavut,Foreign-Born Population,100,1165,8.58
+5 to 14 years,Nunavut,Foreign-Born Population,175,1165,15.02
+15 to 24 years,Nunavut,Foreign-Born Population,180,1165,15.45
+25 to 44 years,Nunavut,Foreign-Born Population,605,1165,51.93
+45 years and over,Nunavut,Foreign-Born Population,105,1165,9.01
