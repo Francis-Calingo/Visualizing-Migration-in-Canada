@@ -5,6 +5,9 @@
     <li>Scraped data from Statistics Canada. (census data and quarterly estimates)</li>
     <li>Performed feature engineering on some variables to create new variables.</li>
     <li>Downloaded shapefile of Canada's provincial and territorial boundaries to create choropleth map.</li>
+    <li>N.B. 1: Some of the data from Statistics Canada are estimates based on 25% sampling.</li>
+    <li>N.B. 2: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of thew "Top 25" CMAs Top 26.</li>
+    <li>N.B. 3: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of thew "Top 25" CMAs Top 26.</li>
   </ul>
   
 ## Code and Resources Used
@@ -35,8 +38,8 @@
       <li><b>Archived - Estimates of non-permanent residents, quarterly, inactive, 2001-2018: </b> https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710002301&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2001&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2018&referencePeriods=20010101%2C20181001 </li>
       <li><b>Estimates of non-permanent residents, quarterly, 2021-2024: </b> https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710012101&pickMembers%5B0%5D=1.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2021&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20210101%2C20241001 </li>
       <li><b>Estimates of the components of international migration, quarterly:</b> https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710004001&pickMembers%5B0%5D=1.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2001&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20010101%2C20241001</li>
-      <li><b>Shapefile: </b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21</li>
     </ul></li>
+    <li><b>Shapefile: </b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21</li>
   </ul>
 
 ## Feature Engineering
@@ -93,7 +96,7 @@
 ![image](https://github.com/user-attachments/assets/f2301fe9-67be-419a-9d4e-81fd6d2dbb95)
 
 
-## Scatter Plot Analysis
+## Scatter Plot Analysis (CMAs)
 
 <p></p>
 
@@ -120,6 +123,16 @@
 
 
 ![image](https://github.com/user-attachments/assets/4809a5b3-4682-4ee3-a165-be5e6e70e738)
+
+
+## Discussion
+
+<p>By making this kind of data more granular and adding a spatial and geographic component, policy decisions both within and outside Canada can be remodelled to better cater to communities with different needs and socioeconomic conditions. For example,</p>
+<ul>
+  <li>A country’s consular services can be redirected more towards underserved communities, especially communities with high levels of non-permanent migration.</li>
+  <li>Which governments will have to do more to provide more specialized services to help certain communities integrate well?</li>
+</ul>
+
 
 
 
