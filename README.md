@@ -38,28 +38,19 @@
   </ul>
 
 ## Feature Engineering
+<ul>
+    <li><b>Non-Permanent residents:</b></li>
+    <li><b>Top 10 sources of international migration in 2020:</b></li>
+    <li><b>Gender analysis:</b> 2021 census women divided by total . For general population.</li>
+    <li><b>Top 5 countries of origin by province and territory:</b> after determining, divide country recent immigrants by total recent immigrants</li>
+    <li><b>Age breakdown:</b>Since age data for general population convert raw to percentage divide amount by total. Since age breakdown for more granular, </li>
+    <li><b>Non-permanent residents per-capita: NPR / CMA pop</li>
+    <li><b>Growth rates of CMA</li>
+    <li><b>Growth rates of NPR pop </li>
+    <li><b>Per-capita population recent immigrants</li>
+    <li><b>Growth rate of NPR</li>
 
-Non-Permanent residents
-
-Top 10 Sources of International Migration in 2020
-
-Gender analysis: 2021 census women divided by total . For general population.
-
-Country of origin: after determining, divide country recent immigrants by total recent immigrants
-
-Since age data for general population convert raw to percentage divide amount by total. Since age breakdown for more granular, 
-
-Non-permanent residents per-capita: NPR / CMA pop
-
-Growth rates of CMA
-
-Growth rates of NPR pop 
-
-Per-capita population recent immigrants
-
-Growth rate of NPR
-
-
+</ul>
 
 ## Time-Series Analysis
 
