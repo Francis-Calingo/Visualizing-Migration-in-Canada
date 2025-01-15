@@ -7,7 +7,7 @@
     <li>Downloaded shapefile of Canada's provincial and territorial boundaries to create choropleth map.</li>
     <li>N.B. 1: Some of the data from Statistics Canada are estimates based on 25% sampling.</li>
     <li>N.B. 2: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of thew "Top 25" CMAs Top 26.</li>
-    <li>N.B. 3: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of thew "Top 25" CMAs Top 26.</li>
+    <li>N.B. 3: Statistics Canada's definition of "recent immigrants" is those that migrated to Canada within the last 5 years of a census year (e.g., 2016-2021, 2011-2016, 2006-2011, etc.)</li>
   </ul>
   
 ## Code and Resources Used
@@ -58,34 +58,42 @@
 
 ## Time-Series Analysis
 
-<p></p>
+<p>The first plot is a breakdown of the number of non-permanent residents in Canada quarterly by provinces and territories, you’ll notice the dip in NPRs during the first three waves of COVID-19, reflecting the travel restrictions of the time, as well as the accelerated growth after 2022, reflecting domestic labour shortages.  </p>
+<p>The next plot is net quarterly international migration. Once again you see the effects COVID had on migration, as well as the increase in numbers after all COVID-related restrictions were lifted. You can also see the seasonality of migration with all these peaks and valleys.</p>
 
 ![image](https://github.com/user-attachments/assets/4adb6cb1-0d54-4f6f-9a9f-4f1be46872dc)
 
+<p>An advantage of Plotly is its interactivity. In this case, it's the ability to look at province(s) and/or territory (or territories) in isoltation. For example, let's examine Nova Scotia's non-permanent resident population and Saskatchewan's quarterly net international migration:</p>
 
-<p></p>
+
+
+<p>The next plot breaks migration patterns of recent migrants down census-by-census, using the top 10 countries of origin from 2020. China, India, and the Philippines have consistently been Canada's top 3 countries of origin, with recent immigrants from India especially seeing an accelerated growth.</p>
 
 ![image](https://github.com/user-attachments/assets/e4c4745c-f0ed-446a-956e-1b73f116bf4b)
+
+<p>Observe the rapid growth of the Syrian migrant population in the 2010s coinciding with the Syrian Civil War.</p>
 
 
 
 
 ## Categorical Data Analysis
 
-<p></p>
+<p> The first plot is a gender analysis of recent migrants (2016-21) by province and territories. Each bar represents the % of recent migrants by country of origin in province and territory that identify as woman, and this dash line represents the percentage of the general population within each geographic area. We see here that there are some variations by country, on one extreme is Japan with the largest positive percent difference, and on the other extreme is the Republic of Ireland.  If we look at the different provinces and territories, some countries of origin display consistent behaviour like Japan, and others like Burundi (in Alberta), you’ll see that there is a much bigger difference.</p>
 
 ![image](https://github.com/user-attachments/assets/68b003fc-0895-4781-a30f-b023a9282ed8)
 
 ![image](https://github.com/user-attachments/assets/61092b9d-fd39-4b16-ba22-929cf9e12331)
 
 
-<p></p>
+<p>The next plot is a stacked bar chart that looks at each province and territory’s top 5 countries of origin amongst recent migrants (2016-21). Some countries like China consistently show up. There are a few interesting cases such as the US and UK making it to British Columbia’s Top 5. Québéc's migration pattern stood out, where even its linguistic culture has an impact on migration, as all but one of the top 5 countries are francophone countries or countries where French is widely understood.</p>
 
 ![image](https://github.com/user-attachments/assets/ff5b9ada-36d6-40f1-a9bf-6596205df1c2)
 
+<p>As this is a Plotly plot, we can see certain aspects of the plot in isolation. For example, when we filter for the Philippines, we can see that recent immigrants from the Philippines take up a signifcant portion of the recent migrant population in places such as Newfoundland and Labrador and NWT. Conversely, they don’t even make the Top 5 In Québéc (likely due to language barriers).</p>
 
 
-<p></p>
+
+<p>The next plot is an age-based analysis comparing the age distribution of the general population versus the total immigrant population, again using 2021 census data. This FacetGrid shows a general pattern that people aged 25-44 make up the plurality of the foreign-born population, but those aged 45+ make up the plurality of the general population. Of course, there are a few interesting cases such as Nunavut, where the young age on average as a whole is visualized well here. So it seems that the characteristic of the foreign-born population is more oriented towards working-age adults than the general population.</p>
 
 ![image](https://github.com/user-attachments/assets/a0d7ef70-55ba-4ab9-9d5a-cc01f7e8bea3)
 
@@ -96,23 +104,26 @@
 ![image](https://github.com/user-attachments/assets/f2301fe9-67be-419a-9d4e-81fd6d2dbb95)
 
 
-## Scatter Plot Analysis (CMAs)
+## Scatter Plot Analysis (Top 25 CMAs**)
 
-<p></p>
+<p><i>See N.B. 2 at the beginning.</i></p>
+<p>This first scatter plot compares CMA population to each CMA’s non-permanent resident population per capita, with points categorized by region (i.e., BC, Prairies, Ontario, Québéc, Atlantic). You can see that outside of Montreal, Québéc has quite a low per-capita non-permanent resident population. Everything else is pretty much à mixed bag.</p>
 
 ![image](https://github.com/user-attachments/assets/d642d399-c8b6-4129-9d8f-fc2c74260992)
 
+<p>Secondly, the growth rates of these CMAs and their immigrant population (2016-21) were compared. Again they are broken down by region. And based on this graph, you can see that pretty much every CMA’s foreign-born population is outpacing their general population’s growth rate, with a bit of regional variations. BC exhibited the highest general population growth rate, but the Atlantic exhibiting the highest foreign-born population growth rate.</p>
+
 ![image](https://github.com/user-attachments/assets/fb5d53e1-ae54-419a-9c59-8439efc391c5)
 
-
-
-<p></p>
+<p>The third plot is a FacetGrid of some scatter plots comparing CMA populations to per-capita recent immigrant population broken down by continents of origin, and colours once again assigned by region. Note that using Seaborn instead of Plotly changed the colouring scheme. For the most part, there were no interesting nor discernible patterns for the rate of migration for people from the Americas, Europe, and Oceania. But where it gets interesting is looking at the plots for Africa and Asia. It’s more dispersed for the Asia plot versus the Africa plot.</p>
 
 ![image](https://github.com/user-attachments/assets/4a9aba8d-5915-4c48-ae18-fd102eb26a2e)
 
 ![image](https://github.com/user-attachments/assets/ae9bc189-97a6-496a-b3ba-26c6c8887919)
 
 ![image](https://github.com/user-attachments/assets/155724b9-578d-49e3-bb4a-05cb816b13af)
+
+
 
 
 
