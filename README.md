@@ -124,7 +124,18 @@
 ![image](https://github.com/user-attachments/assets/155724b9-578d-49e3-bb4a-05cb816b13af)
 
 
+<p>But look at the point circled in red. This is Montreal, observe the difference between see the difference between both plots. It appears that migrants of African origin, on a per-capita basis, is comparatively high compared to other CMAs, while it is comparatively lower with migrants of Asian origin.And to some extent it rings true for the rest of Québéc. </p>
 
+![image](https://github.com/user-attachments/assets/97284812-3263-4420-a91f-082b4970c3e6)
+
+![image](https://github.com/user-attachments/assets/9809442c-bd90-4158-8a7b-9f29fd76a197)
+
+  
+<p>Also, the cluster of red points represents Prairie CMAs, suggesting that they share a similar migration pattern. </p>
+
+![image](https://github.com/user-attachments/assets/e1d42442-9d4b-447b-a565-fc22dfa785ff)
+
+![image](https://github.com/user-attachments/assets/66904767-2e5b-4408-87ec-9563225a1d77)
 
 
 ## Spatial Analysis
