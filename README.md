@@ -65,6 +65,9 @@
 
 <p>An advantage of Plotly is its interactivity. In this case, it's the ability to look at province(s) and/or territory (or territories) in isoltation. For example, let's examine Nova Scotia's non-permanent resident population and Saskatchewan's quarterly net international migration:</p>
 
+![image](https://github.com/user-attachments/assets/b227050b-e253-42c4-aad5-74d6560c4917)
+
+![image](https://github.com/user-attachments/assets/f925f5ca-42fc-47b1-83cc-a5eccb163b38)
 
 
 <p>The next plot breaks migration patterns of recent migrants down census-by-census, using the top 10 countries of origin from 2020. China, India, and the Philippines have consistently been Canada's top 3 countries of origin, with recent immigrants from India especially seeing an accelerated growth.</p>
@@ -72,6 +75,9 @@
 ![image](https://github.com/user-attachments/assets/e4c4745c-f0ed-446a-956e-1b73f116bf4b)
 
 <p>Observe the rapid growth of the Syrian migrant population in the 2010s coinciding with the Syrian Civil War.</p>
+
+![image](https://github.com/user-attachments/assets/0e3796f2-046c-469b-8ae2-279b4100d8e0)
+
 
 
 
@@ -91,6 +97,7 @@
 
 <p>As this is a Plotly plot, we can see certain aspects of the plot in isolation. For example, when we filter for the Philippines, we can see that recent immigrants from the Philippines take up a signifcant portion of the recent migrant population in places such as Newfoundland and Labrador and NWT. Conversely, they don’t even make the Top 5 In Québéc (likely due to language barriers).</p>
 
+![image](https://github.com/user-attachments/assets/36dd722a-3213-4f54-90e9-77d2418ef04a)
 
 
 <p>The next plot is an age-based analysis comparing the age distribution of the general population versus the total immigrant population, again using 2021 census data. This FacetGrid shows a general pattern that people aged 25-44 make up the plurality of the foreign-born population, but those aged 45+ make up the plurality of the general population. Of course, there are a few interesting cases such as Nunavut, where the young age on average as a whole is visualized well here. So it seems that the characteristic of the foreign-born population is more oriented towards working-age adults than the general population.</p>
