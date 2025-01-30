@@ -1,12 +1,12 @@
 # PROJECT OVERVIEW: Data Visualization of Migration to Canada (with Python)
   <ul>
-    <li>Performed data visualizations and geosoatial analysis of settlement patterns of immigrants (permanent and non-permanent) in Canada.</li>
+    <li>Performed data visualizations and geospatial analysis of settlement patterns of immigrants (permanent and non-permanent) in Canada.</li>
     <li>National, provincial and territorial, and census metropolitan area [CMA] breakdown</li>
     <li>Scraped data from Statistics Canada. (census data and quarterly estimates)</li>
     <li>Performed feature engineering on some variables to create new variables.</li>
     <li>Downloaded shapefile of Canada's provincial and territorial boundaries to create choropleth map.</li>
     <li>N.B. 1: Some of the data from Statistics Canada are estimates based on 25% sampling.</li>
-    <li>N.B. 2: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of thew "Top 25" CMAs Top 26.</li>
+    <li>N.B. 2: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of the "Top 25" CMAs Top 26.</li>
     <li>N.B. 3: Statistics Canada's definition of "recent immigrants" is those that migrated to Canada within the last 5 years of a census year (e.g., 2016-2021, 2011-2016, 2006-2011, etc.)</li>
   </ul>
   
@@ -45,8 +45,8 @@
 ## Feature Engineering
 <ul>
     <li><b>Non-Permanent residents:</b> Quarterly data for total non-permanent residents missing between 2018-2021. Quarterly data for net non-permanent migration used to calculate missing values.</li>
-    <li><b>2021 Census Gender analysis:</b> For each country of origin, find total number of respondants that identify as women, divide by the raw total for that country of origin, then multiply by 100 to get percentage. The same method applies for the general population. </li>
-    <li><b>Top 5 countries of origin by province and territory, recent immigrants (2021 census):</b> After determining each province and territory's top 5 countries of orign, take their raw total, by total province or territory's total recent immigrant population, then multiply by 100 to get their percentages.</li>
+    <li><b>2021 Census Gender analysis:</b> For each country of origin, find the total number of respondents that identify as women, divide by the raw total for that country of origin, then multiply by 100 to get the percentage. The same method applies for the general population. </li>
+    <li><b>Top 5 countries of origin by province and territory, recent immigrants (2021 census):</b> After determining each province and territory's top 5 countries of origin, take their raw total, by total province or territory's total recent immigrant population, then multiply by 100 to get their percentages.</li>
     <li><b>Age breakdown, nationally and by province and territory (2021 Census):</b> Find the age breakdown of the recent immigrant population (using the intervals [0,5), [5,15), [15,25), [25,45), 45 and above), and calculate their percentages. The age breakdown for the general population is more granular, necessitating arithmetic operations to match with the aforementioned intervals, then the same process can be executed. </li>
     <li><b>Non-permanent residents per-capita by CMA:</b> [NPR Population, 2021]/[CMA Population, 2021], then divided by 100,000.</li>
     <li><b>Growth rates of CMA:</b> [[CMA Population, 2021 Census] - [CMA Population, 2016 Census]]/[CMA Population, 2016 Census], then multiplied by 100</li>
@@ -63,7 +63,7 @@
 
 ![image](https://github.com/user-attachments/assets/4adb6cb1-0d54-4f6f-9a9f-4f1be46872dc)
 
-<p>An advantage of Plotly is its interactivity. In this case, it's the ability to look at province(s) and/or territory (or territories) in isoltation. For example, let's examine Nova Scotia's non-permanent resident population and Saskatchewan's quarterly net international migration:</p>
+<p>An advantage of Plotly is its interactivity. In this case, it's the ability to look at province(s) and/or territory (or territories) in isolation. For example, let's examine Nova Scotia's non-permanent resident population and Saskatchewan's quarterly net international migration:</p>
 
 ![image](https://github.com/user-attachments/assets/b227050b-e253-42c4-aad5-74d6560c4917)
 
@@ -95,7 +95,7 @@
 
 ![image](https://github.com/user-attachments/assets/ff5b9ada-36d6-40f1-a9bf-6596205df1c2)
 
-<p>As this is a Plotly plot, we can see certain aspects of the plot in isolation. For example, when we filter for the Philippines, we can see that recent immigrants from the Philippines take up a signifcant portion of the recent migrant population in places such as Newfoundland and Labrador and NWT. Conversely, they don’t even make the Top 5 In Québéc (likely due to language barriers).</p>
+<p>As this is a Plotly plot, we can see certain aspects of the plot in isolation. For example, when we filter for the Philippines, we can see that recent immigrants from the Philippines take up a significant portion of the recent migrant population in places such as Newfoundland and Labrador and NWT. Conversely, they don’t even make the Top 5 In Québéc (likely due to language barriers).</p>
 
 ![image](https://github.com/user-attachments/assets/36dd722a-3213-4f54-90e9-77d2418ef04a)
 
@@ -118,11 +118,11 @@
 
 ![image](https://github.com/user-attachments/assets/d642d399-c8b6-4129-9d8f-fc2c74260992)
 
-<p>Secondly, the growth rates of these CMAs and their immigrant population (2016-21) were compared. Again they are broken down by region. And based on this graph, you can see that pretty much every CMA’s foreign-born population is outpacing their general population’s growth rate, with a bit of regional variations. BC exhibited the highest general population growth rate, but the Atlantic exhibiting the highest foreign-born population growth rate.</p>
+<p>Secondly, the growth rates of these CMAs and their immigrant population (2016-21) were compared. Again they are broken down by region. And based on this graph, you can see that pretty much every CMA’s foreign-born population is outpacing their general population’s growth rate, with a bit of regional variations. BC exhibited the highest general population growth rate, but the Atlantic exhibited the highest foreign-born population growth rate.</p>
 
 ![image](https://github.com/user-attachments/assets/fb5d53e1-ae54-419a-9c59-8439efc391c5)
 
-<p>The third plot is a FacetGrid of some scatter plots comparing CMA populations to per-capita recent immigrant population broken down by continents of origin, and colours once again assigned by region. Note that using Seaborn instead of Plotly changed the colouring scheme. For the most part, there were no interesting nor discernible patterns for the rate of migration for people from the Americas, Europe, and Oceania. But where it gets interesting is looking at the plots for Africa and Asia. It’s more dispersed for the Asia plot versus the Africa plot.</p>
+<p>The third plot is a FacetGrid of some scatter plots comparing CMA populations to per-capita recent immigrant populations broken down by continents of origin, and colours once again assigned by region. Note that using Seaborn instead of Plotly changed the colouring scheme. For the most part, there were no interesting nor discernible patterns for the rate of migration for people from the Americas, Europe, and Oceania. But where it gets interesting is looking at the plots for Africa and Asia. It’s more dispersed for the Asia plot versus the Africa plot.</p>
 
 ![image](https://github.com/user-attachments/assets/4a9aba8d-5915-4c48-ae18-fd102eb26a2e)
 
@@ -148,7 +148,7 @@
 ## Spatial Analysis
 
 <p> Recall that the national non-permanent resident population rose dramatically after Q3 2022. Here is a choropleth map showing a geographic breakdown of that growth.</p>
-<p> Nunavut by far experienced the fastest non-permanent resident growth within that time period, althoucgh that can largely be attributed to its small non-permanent resident. Alberta also experienced high growth, mirroring its generally high growth as a whole over the past decade. Growth has slowed down for British Columbia and Ontario. Surprisingly, the Maritime provinces experience relatively little growth despite government initiatives to attract immigrants and forign labour into that region. </p>
+<p> Nunavut by far experienced the fastest non-permanent resident growth within that time period, although that can largely be attributed to its small non-permanent resident. Alberta also experienced high growth, mirroring its generally high growth as a whole over the past decade. Growth has slowed down for British Columbia and Ontario. Surprisingly, the Maritime provinces experience relatively little growth despite government initiatives to attract immigrants and foreign labour into that region. </p>
 
 
 ![image](https://github.com/user-attachments/assets/4809a5b3-4682-4ee3-a165-be5e6e70e738)
