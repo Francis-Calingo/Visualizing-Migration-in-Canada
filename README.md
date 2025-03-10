@@ -1,4 +1,17 @@
 # PROJECT OVERVIEW: Data Visualization of Migration to Canada (with Python)
+
+## Table of Contents
+* [Introduction](#introduction)
+* [Code and Resources Used](#code-and-resources-used)
+* [Web Scraping](#web-scraping)
+* [Feature Engineering](#feature-engineering)
+* [Time-Series Analysis](#time-series-analysis)
+* [Categorical Data Analysis](#categorical-data-analysis)
+* [Scatter Plot Analysis (Top 25 CMAs**)](#scatter-plot-analysis-top-25-cmas)
+* [Spatial Analysis](#spatial-analysis)
+* [Discussion](#discussion)
+
+## Introduction
   <ul>
     <li>Performed data visualizations and geospatial analysis of settlement patterns of immigrants (permanent and non-permanent) in Canada.</li>
     <li>National, provincial and territorial, and census metropolitan area [CMA] breakdown</li>
