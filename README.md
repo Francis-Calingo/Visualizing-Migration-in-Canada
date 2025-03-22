@@ -11,7 +11,7 @@
 * [Spatial Analysis](#spatial-analysis)
 * [Discussion](#discussion)
 
-## Introduction
+<details><summary><h2>Introduction</h2></summary> 
   <ul>
     <li>Performed data visualizations and geospatial analysis of settlement patterns of immigrants (permanent and non-permanent) in Canada.</li>
     <li>National, provincial and territorial, and census metropolitan area [CMA] breakdown</li>
@@ -22,8 +22,10 @@
     <li>N.B. 2: For the purpose of this analysis, the Ottawa-Gatineau CMA was broken up into two parts: its Ontario and Quebec part, rendering the analysis of the "Top 25" CMAs Top 26.</li>
     <li>N.B. 3: Statistics Canada's definition of "recent immigrants" is those that migrated to Canada within the last 5 years of a census year (e.g., 2016-2021, 2011-2016, 2006-2011, etc.)</li>
   </ul>
-  
-## Code and Resources Used
+
+</details>
+
+<details><summary><h2>Code and Resources Used</h2></summary>  
   <ul>
     <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
     <li><b>Python Version:</b> 3.10.12</li>
@@ -34,8 +36,9 @@
       <li><b>Libraries to load files:</b> files (from google.colab), zipfile, io</li>
     </ul></li>
   </ul>
-  
-## Web Scraping
+</details>
+
+<details><summary><h2>Web Scraping</h2></summary>    
   <ul>
     <li><b>Top 10 Sources of International Migration in 2020: </b> https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/annual-report-parliament-immigration-2021.html#gba</li>
     <li><b>Census Data:</b></li>
@@ -54,8 +57,9 @@
     </ul></li>
     <li><b>Shapefile: </b> https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21</li>
   </ul>
+</details>
 
-## Feature Engineering
+<details><summary><h2>Feature Engineering</h2></summary>  
 <ul>
     <li><b>Non-Permanent residents:</b> Quarterly data for total non-permanent residents missing between 2018-2021. Quarterly data for net non-permanent migration used to calculate missing values.</li>
     <li><b>2021 Census Gender analysis:</b> For each country of origin, find the total number of respondents that identify as women, divide by the raw total for that country of origin, then multiply by 100 to get the percentage. The same method applies for the general population. </li>
@@ -68,8 +72,9 @@
     <li><b>Growth rate of Non-Permanent Residents, Q3 2022-Q3 2024:</b> [[NPR Population, Q3 2024] - [NPR Population, Q3 2022]]/[NPR Population, Q3 2022], then multiplied by 100</li>
 
 </ul>
+</details>
 
-## Time-Series Analysis
+<details><summary><h2>Time-Series Analysis</h2></summary>  
 
 <p>The first plot is a breakdown of the number of non-permanent residents in Canada quarterly by provinces and territories, you’ll notice the dip in NPRs during the first three waves of COVID-19, reflecting the travel restrictions of the time, as well as the accelerated growth after 2022, reflecting domestic labour shortages.  </p>
 <p>The next plot is net quarterly international migration. Once again you see the effects COVID had on migration, as well as the increase in numbers after all COVID-related restrictions were lifted. You can also see the seasonality of migration with all these peaks and valleys.</p>
@@ -91,11 +96,10 @@
 
 ![image](https://github.com/user-attachments/assets/0e3796f2-046c-469b-8ae2-279b4100d8e0)
 
+</details>
 
 
-
-
-## Categorical Data Analysis
+<details><summary><h2>Categorical Data Analysis</h2></summary>  
 
 <p> The first plot is a gender analysis of recent migrants (2016-21) by province and territories. Each bar represents the % of recent migrants by country of origin in province and territory that identify as woman, and this dash line represents the percentage of the general population within each geographic area. We see here that there are some variations by country, on one extreme is Japan with the largest positive percent difference, and on the other extreme is the Republic of Ireland.  If we look at the different provinces and territories, some countries of origin display consistent behaviour like Japan, and others like Burundi (in Alberta), you’ll see that there is a much bigger difference.</p>
 
@@ -123,8 +127,9 @@
 
 ![image](https://github.com/user-attachments/assets/f2301fe9-67be-419a-9d4e-81fd6d2dbb95)
 
+</details>
 
-## Scatter Plot Analysis (Top 25 CMAs**)
+<details><summary><h2>Scatter Plot Analysis (Top 25 CMAs**)</h2></summary>  
 
 <p><i>See N.B. 2 at the beginning.</i></p>
 <p>This first scatter plot compares CMA population to each CMA’s non-permanent resident population per capita, with points categorized by region (i.e., BC, Prairies, Ontario, Québéc, Atlantic). You can see that outside of Montreal, Québéc has quite a low per-capita non-permanent resident population. Everything else is pretty much à mixed bag.</p>
@@ -157,8 +162,9 @@
 
 ![image](https://github.com/user-attachments/assets/66904767-2e5b-4408-87ec-9563225a1d77)
 
+</details>
 
-## Spatial Analysis
+<details><summary><h2>Spatial Analysis</h2></summary>  
 
 <p> Recall that the national non-permanent resident population rose dramatically after Q3 2022. Here is a choropleth map showing a geographic breakdown of that growth.</p>
 <p> Nunavut by far experienced the fastest non-permanent resident growth within that time period, although that can largely be attributed to its small non-permanent resident. Alberta also experienced high growth, mirroring its generally high growth as a whole over the past decade. Growth has slowed down for British Columbia and Ontario. Surprisingly, the Maritime provinces experience relatively little growth despite government initiatives to attract immigrants and foreign labour into that region. </p>
@@ -166,8 +172,9 @@
 
 ![image](https://github.com/user-attachments/assets/4809a5b3-4682-4ee3-a165-be5e6e70e738)
 
+</details>
 
-## Discussion
+<details><summary><h2>Discussion</h2></summary>  
 
 <p>By making this kind of data more granular and adding a spatial and geographic component, policy decisions both within and outside Canada can be remodelled to better cater to communities with different needs and socioeconomic conditions. For example,</p>
 <ul>
@@ -175,6 +182,7 @@
   <li>Which governments will have to do more to provide more specialized services to help certain communities integrate well?</li>
 </ul>
 
+</details>
 
 
 
