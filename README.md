@@ -42,7 +42,7 @@ The data structure of the 9 Excel files used for this analysis will be outlined 
 * <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710012101&pickMembers%5B0%5D=1.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2021&cubeTimeFrame.endMonth=07&cubeTimeFrame.endYear=2024&referencePeriods=20210101%2C20240701">Estimates of the number of non-permanent residents by type, quarterly</a> 
 * <a href="https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21">2021 Census – Boundary files</a>
 
-For the report version of the analysis: [Link to Download](
+For the report version of the analysis: [Link to Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/main/Patterns%20within%20Patterns_%20Using%20Python%20and%20Excel%20to%20Unlocking%20Hidden%20Migration%20and%20Settlement%20Patterns%20in%20Canada.pdf)
 
 
 # Data Structure and Initial Checks
