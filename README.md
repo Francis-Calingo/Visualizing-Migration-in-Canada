@@ -45,7 +45,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 | Recent immigrants by census metropolitan areas (CMA) | **338**  | 26  | 13  | Content Cell  |
 | Total non-permanent residents by census metropolitan areas  | **130**  | 26  | 5  | Content Cell  |
 | % Growth rate of CMAs and immigrant population in each CMA | **182**  | 26  | 7  | Content Cell  |
-| **TOTAL** | **67,850**  | 575  | 118  | N/A  |
+| **TOTAL** | **7,103**  | 575  | 118  | N/A  |
 
 
 
