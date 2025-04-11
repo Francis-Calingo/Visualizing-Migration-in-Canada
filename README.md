@@ -12,7 +12,7 @@ Welcome to the sample GitHub ReadME! Use this template as an outline for your da
 
 
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Statistics Canada, founded in 1971, serves as Canada’s national statistical agency, and the wide array of data that it collects, whether through the census data collected every demi-decade, or through quarterly population estimates, is absolutely valuable for the Canadian government and subnational governments to enact data-driven policy. In particular, the astronomical increase in the number of people who have landed in Canada over the past few years (whether as permanent residents, non-permanent residents, or a special category such as refugees) means that governments and institutions must respond to the opportunities and challenges that come along with this phenomenon. The characteristics of migration into Canada is far from monolithic, which is why this project was completed, in order to help inform policy and respond to the cosmopolitan nature of migrants as a whole as well as their different settlement patterns using data gathered from Statistics Canada.
 
 Insights and recommendations are provided on the following key areas:
 
@@ -33,13 +33,19 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure and Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
 
-[Entity Relationship Diagram here]
+| Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Non-Permanent migration by provinces & territory  | **1425**  | 95  | 15  | Content Cell  |
+| Quarterly international migration by province & territory  | **1425**  | 95  | 15  | Content Cell  |
+| Census-by-census immigration data from Top 10 Countries of Origin in 2020  | **150**  | 50  | 10 | Content Cell  |
+| % of Recent Migrants that identify as woman by country of origin and province & territory  | **2365**  | 55  | 43  | Content Cell  |
+| Each province & territory's top 5 countries of origin, recent immigrants  | **248**  | 62  | 4  | Content Cell  |
+| Age breakdown of immigrant population vs. general population, by province & territory  | **840**  | 140  | 6  | Content Cell  |
+| Recent immigrants by census metropolitan areas (CMA) | **338**  | 26  | 13  | Content Cell  |
+| Total non-permanent residents by census metropolitan areas  | **130**  | 26  | 5  | Content Cell  |
+| % Growth rate of CMAs and immigrant population in each CMA | **182**  | 26  | 7  | Content Cell  |
+| **TOTAL** | **67,850**  | 575  | 118  | N/A  |
 
 
 
