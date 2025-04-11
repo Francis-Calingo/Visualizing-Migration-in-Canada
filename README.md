@@ -19,15 +19,31 @@ Insights and recommendations are provided on the following key areas:
 - **Scatter Plot Analysis:** Find any associations between different pairings of variables within each of the largest Census Metropolitan Areas (CMAs).
 - **Geospatial Analysis:** Analyze the settlement patterns of recently landed non-permanent residents by province/territory to inform provincial and territorial governments.
 
-
-
 This Jupyter notebook hosts the project itself. [Link to Download](Visualizing_Migration_Patterns_in_Canada.ipynb)
+  <ul>
+    <li><b>IDEs Used:</b> Google Colab, Jupyter Notebook</li>
+    <li><b>Python Version:</b> 3.10.12</li>
+    <li><b>Libraries and Packages:</b>
+    <ul>
+      <li><b>Geospatial Analysis Libraries: </b> geopandas, matplotlib.plt </li>
+      <li><b>Libraries for plotting data: </b> pandas, seaborn, plotly.express, numpy</li>
+      <li><b>Libraries to load files:</b> files (from google.colab), zipfile, io</li>
+    </ul></li>
+  </ul>
 
-Targed SQL queries regarding various business questions can be found here [link].
+The data structure of the 9 Excel files used for this analysis will be outlined in the next section. Data sources: 
+* <a href="https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?LANG=E&GENDERlist=1,2,3&STATISTIClist=1,4&DGUIDlist=2021A000011124&HEADERlist=26&SearchText=canada">Census Profile, 2021 Census of Population: Selected places of birth for the recent immigrant population</a>
+* <a href="https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=01&Geo2=PR&Code2=01&SearchText=Canada&SearchType=Begins&SearchPR=01&B1=Immigration%20and%20citizenship&TABID=1&type=0">Census Profile, 2016 Census: Recent immigrants by selected places of birth</a>
+* <a href="https://www12.statcan.gc.ca/nhs-enm/2011/dp-pd/dt-td/Rp-eng.cfm?TABID=2&LANG=E&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=0&GK=0&GRP=1&PID=105411&PRID=0&PTYPE=105277&S=0&SHOWALL=0&SUB=0&Temporal=2013&THEME=95&VID=0&VNAMEE=&VNAMEF=">2011 National Household Survey: Data tables: Place of Birth, Period of immigration=2006-2011</a>
+* <a href="https://www12.statcan.gc.ca/census-recensement/2006/dp-pd/hlt/97-557/T404-eng.cfm?Lang=E&T=404&GH=4&GF=1&SC=1&S=1&O=D#FN2">Place of birth for the immigrant population by period of immigration, 2006 counts and percentage distribution, for Canada, provinces and territories - 20% sample data</a>
+* <a href="https://www12.statcan.gc.ca/english/census01/products/standard/themes/Rp-eng.cfm?LANG=E&APATH=3&DETAIL=1&DIM=0&FL=A&FREE=0&GC=0&GID=0&GK=0&GRP=1&PID=62124&PRID=0&PTYPE=55430,53293,55440,55496,71090&S=0&SHOWALL=0&SUB=0&Temporal=2001&THEME=43&VID=0&VNAMEE=&VNAMEF=">2001 Census Topic-based tabulations</a>
+* <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710002301&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2001&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2018&referencePeriods=20010101%2C20181001">Archived - Estimates of non-permanent residents, quarterly, inactive, 2001-2018</a>
+* <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710004001&pickMembers%5B0%5D=1.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2018&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2022&referencePeriods=20180101%2C20221001">Estimates of the components of international migration, quarterly, 2021-2024</a>
+* <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710012101&pickMembers%5B0%5D=1.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2021&cubeTimeFrame.endMonth=07&cubeTimeFrame.endYear=2024&referencePeriods=20210101%2C20240701">Estimates of the number of non-permanent residents by type, quarterly</a> 
+* <a href="https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21">2021 Census – Boundary files</a>
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+For the report version of the analysis: [Link to Download](
 
-[click me to download](https://github.com/Francis-Calingo/CATEGORICAL-SOCIOECONOMIC-DATA-ANALYSIS-OF-CANADIAN-REGIONS/raw/refs/heads/main/Census_Division_Stats_-_Sheet1.csv)
 
 # Data Structure and Initial Checks
 
@@ -46,15 +62,19 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 | **TOTAL** | **7,103**  | 575  | 118  | N/A  |
 
 
-
-
 # Executive Summary
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+The time-series visualizations showed a rapid increase of migration ,particulalry with regards to non-permanent migration as well as people landing from India and Syria.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
+
+With regards to the categorical data analysis, we noticed some consistency with each province and territory's major sources of migrants, with some exceptions (notably Quebec, where their major sources of migrants remain francophone countries). The age distribution is characterized by , with most immigrants falling within the working age range (), while some ethnic groups in certain provinces exhbitied some anomalies with regards to the gender distribution.
+
+In terms of the scatter plto analysis, clustering was apparent with census metropolitan areas from certain regions (e.g., Parairie CMAs) exhibiting similar migration patterns.
+
+Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
 
 
 
@@ -124,7 +144,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Nunavut has experienced rapid growth rate, but . **Recommendation or general guidance based on this observation.**
   
 
 
