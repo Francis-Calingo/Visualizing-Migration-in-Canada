@@ -50,7 +50,7 @@ For the report version of the analysis: [Link to Download](https://github.com/Fr
 
 | Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Non-Permanent migration by provinces & territory  | **1425**  | 95  | 15  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Non-Permanent%20Migration.csv)  |
+| Non-Permanent migration by provinces & territory  | **1425**  | 95  | 15  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/main/Non-Permanent%20Migration.csv)  |
 | Quarterly international migration by province & territory  | **1425**  | 95  | 15  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Estimates%20of%20the%20components%20of%20international%20migration%2C%20quarterly.csv) |
 | Census-by-census immigration data from Top 10 Countries of Origin in 2020  | **150**  | 50  | 10 | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Migration%20Timeline%20of%20Top%2010%20Countries%20from%202020.csv) |
 | % of Recent Migrants that identify as woman by country of origin and province & territory  | **2365**  | 55  | 43  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Migration%20Gender%20Breakdown.csv) |
