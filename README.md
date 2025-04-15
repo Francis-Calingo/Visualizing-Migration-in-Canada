@@ -44,6 +44,8 @@ The data structure of the 9 Excel files used for this analysis will be outlined 
 
 For the report version of the analysis: [Link to Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/main/Patterns%20within%20Patterns_%20Using%20Python%20and%20Excel%20to%20Unlocking%20Hidden%20Migration%20and%20Settlement%20Patterns%20in%20Canada.pdf)
 
+For the walkthrough of the project in video form: [Video](https://drive.google.com/file/d/14W0qtsOJdgzcSmXcvERx3pGHeB3109VV/view)
+
 
 # Data Structure and Initial Checks
 
