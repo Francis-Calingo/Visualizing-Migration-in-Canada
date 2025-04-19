@@ -8,6 +8,7 @@
 * [Recommendations](#recommendations)
 * [Assumptions and Caveats](#assumptions-and-caveats)
 
+---
 
 # Project Background
 Statistics Canada, founded in 1971, serves as Canada’s national statistical agency, and the wide array of data that it collects, whether through the census data collected every demi-decade, or through quarterly population estimates, is absolutely valuable for the Canadian government and subnational governments to enact data-driven policy. In particular, the astronomical increase in the number of people who have landed in Canada over the past few years (whether as permanent residents, non-permanent residents, or a special category such as refugees) means that governments and institutions must respond to the opportunities and challenges that come along with this phenomenon. The characteristics of migration into Canada is far from monolithic, which is why this project was completed, in order to help inform policy and respond to the cosmopolitan nature of migrants as a whole as well as their different settlement patterns using data gathered from Statistics Canada.
@@ -46,6 +47,7 @@ For the report version of the analysis: [Link to Download](https://github.com/Fr
 
 For the walkthrough of the project in video form: [Video](https://drive.google.com/file/d/14W0qtsOJdgzcSmXcvERx3pGHeB3109VV/view)
 
+---
 
 # Data Structure and Initial Checks
 
@@ -63,6 +65,7 @@ For the walkthrough of the project in video form: [Video](https://drive.google.c
 | % Growth rate of CMAs and immigrant population in each CMA | **182**  | 26  | 7  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/CMA%20vs.%20Immigrant%20Growth%20Rate.csv)  |
 | **TOTAL** | **7,103**  | 575  | 118  | N/A  |
 
+---
 
 # Executive Summary
 
@@ -78,23 +81,20 @@ In terms of the scatter plto analysis, clustering was apparent with census metro
 
 Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
 
-
+---
 
 # Insights Deep Dive
-### Category 1:
+### Time-Series Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **There ** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Seasonality is observed with quarterly immigration data.** Policy changes (e.g., changes to immigration policies following the lifting of all federal COVID-19 regulations in 2022), as well as major historical events (e.g., COVID-19) had visible effects on migration in recent years, but other than that, the patterns in immigration remain largely seasonal, with _____.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The top three sources of immigrants for Canada remain unchanged over the past two decades, while some countries have become a bigger source of migration to Canada over the past decade.** In no particular order, China, India, and the Philippines remain the top three sources of immigration to Canada, with each country taking turns as being the top source. Other countries such as Syria and Nigeria have seen an increase over the past decade, with Syria's increase in particular having been fuelled by the recently concluded Syrian Civil War as well as drastic changes in refugee policies stemming from a change in government in 2015.
 
-[Visualization specific to category 1]
+---
 
-
-### Category 2:
+### Categorical Data Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -107,7 +107,7 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 [Visualization specific to category 2]
 
 
-### Category 3:
+### Scatter Plot Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -132,7 +132,7 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 
 [Visualization specific to category 4]
 
-
+---
 
 # Recommendations:
 
@@ -148,7 +148,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
   
 * Nunavut has experienced rapid growth rate, but . **Recommendation or general guidance based on this observation.**
   
-
+---
 
 # Assumptions and Caveats:
 
