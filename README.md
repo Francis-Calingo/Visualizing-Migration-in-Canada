@@ -66,10 +66,10 @@ For the walkthrough of the project in video form: [Video](https://drive.google.c
 | **TOTAL** | **7,103**  | 575  | 118  | N/A  |
 
 
-The shapefile has **91 entries (7 fields x 13 records)**. 
+The shapefile has **104 entries (8 fields x 13 records)**. 
 
 It is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
-As you can see, most of the fields are irrelevant in isolation besides FEDENAME, which houses the English names of the ridings *in order* . The csv itself is not needed, the shapefile is. [But it is in this repo for reference](https://github.com/Francis-Calingo/) to better understand the structure of the shapefile as well as the workflow of merging it with the main CSV file to create choropleth maps in R [Figure 1.2].
+As you can see, most of the fields are irrelevant in isolation besides FEDENAME, which houses the English names of the ridings *in order* . The csv itself is not needed, the shapefile is. [But it is in this repo for reference](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Shapefile_Features.csv) to better understand the structure of the shapefile as well as the workflow of merging it with the main CSV file to create choropleth maps in Python [Figure 1.2].
 
 ---
 
