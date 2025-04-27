@@ -7,6 +7,8 @@
 * [Insights Deep Dive](#insights-deep-dive)
 * [Recommendations](#recommendations)
 * [Assumptions and Caveats](#assumptions-and-caveats)
+* [Credits and Acknowlegements](#credits-and-acknowledgements)
+
 
 ---
 
@@ -171,6 +173,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 * Data only goes up to the third quarter of 2024 (i.e., September 30). Recent changes to immigration policies by the federal government have either not gone to fruition yet or have only been recently implemented. The analysis will therefore not account for the anticipated drop in immigration in the coming months.
   
 * Some of the datasets are estimates based on a 25% sample size and not the full count, which may slightly render parts of the data not fully accurate, but the agency’s methodology balances accuracy and operational costs effectively.
+
+---
 
 # Credits and Acknowledgements
 
