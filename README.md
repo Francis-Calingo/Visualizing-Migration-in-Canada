@@ -172,7 +172,17 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
   
 * Some of the datasets are estimates based on a 25% sample size and not the full count, which may slightly render parts of the data not fully accurate, but the agency’s methodology balances accuracy and operational costs effectively.
 
+# Credits and Acknowledgements
 
+"Bar Charts in Python". Plotly, https://plotly.com/python/bar-charts/
+
+"Filled Area Plots in Python". Plotly, https://plotly.com/python/filled-area-plots/
+
+"Horizontal and Vertical Lines and Rectangles in Python". Plotly, https://plotly.com/python/horizontal-vertical-shapes/
+
+"Mapping and Plotting Tools". — GeoPandas, https://geopandas.org/en/stable/docs/user_guide/mapping.html.
+
+"seaborn.FacetGrid". Seaborn. https://seaborn.pydata.org/generated/seaborn.FacetGrid.html
 
 =========================================
 
