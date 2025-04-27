@@ -47,6 +47,12 @@ For the report version of the analysis: [Link to Download](https://github.com/Fr
 
 For the walkthrough of the project in video form: [Video](https://drive.google.com/file/d/14W0qtsOJdgzcSmXcvERx3pGHeB3109VV/view)
 
+To  fork this repository:
+```bash
+git clone https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada.git
+cd Visualizing-Migration-in-Canada
+```
+
 ---
 
 # Data Structure and Initial Checks
