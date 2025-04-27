@@ -168,11 +168,13 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Since it was hypothesized that Ontario and Quebec would experience different migration and settlement patterns, the Ottawa-Gatineau CMA was split into its Ontario and Quebec parts. Therefore, the scatter plot analysis contained 26 points for each plot.
   
 * Data only goes up to the third quarter of 2024 (i.e., September 30). Recent changes to immigration policies by the federal government have either not gone to fruition yet or have only been recently implemented. The analysis will therefore not account for the anticipated drop in immigration in the coming months.
   
 * Some of the datasets are estimates based on a 25% sample size and not the full count, which may slightly render parts of the data not fully accurate, but the agency’s methodology balances accuracy and operational costs effectively.
+
+* Even though Plotly was heavily used (which ended up being useful for filtering for certain results such as the time-series visualization of Syrian migration to Canada in the past two decades), the project is mostly static in nature and does not fully utilize the interactive capabilities of Plotly. There is an opportunity to scale up this project and productionize it into publically-available interactive graphs and dashboards that can be hosted in websites such as think-tanks, government websites, and civic organizations that cover migration topics).
 
 ---
 
