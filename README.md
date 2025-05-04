@@ -85,13 +85,13 @@ As you can see, most of the fields are irrelevant in isolation besides FEDENAME,
 
 ### Overview of Findings
 
-The time-series visualizations showed a rapid increase of migration ,particulalry with regards to non-permanent migration as well as people landing from India and Syria.
+The time-series visualizations showed a rapid increase of migration , particularly  with regards to non-permanent migration as well as people landing from India and Syria.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 With regards to the categorical data analysis, we noticed some consistency with each province and territory's major sources of migrants, with some exceptions (notably Quebec, where their major sources of migrants remain francophone countries). The age distribution is characterized by , with most immigrants falling within the working age range (), while some ethnic groups in certain provinces exhbitied some anomalies with regards to the gender distribution.
 
-In terms of the scatter plto analysis, clustering was apparent with census metropolitan areas from certain regions (e.g., Parairie CMAs) exhibiting similar migration patterns.
+In terms of the scatter plot analysis, clustering was apparent with census metropolitan areas from certain regions (e.g., Prairie CMAs) exhibiting similar migration patterns.
 
 Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
 
@@ -100,51 +100,72 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 # Insights Deep Dive
 ### Time-Series Analysis:
 
-* **There ** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Observe the dip in NPRs during the first three waves of COVID-19, as well as the accelerated growth after 2022.** This reflects the travel restrictions during the height of the spread of COVID-19, as well as domestic labour shortages following the end of said restrictions.
   
-* **Seasonality is observed with quarterly immigration data.** Policy changes (e.g., changes to immigration policies following the lifting of all federal COVID-19 regulations in 2022), as well as major historical events (e.g., COVID-19) had visible effects on migration in recent years, but other than that, the patterns in immigration remain largely seasonal, with _____.
+* **Seasonality is observed with quarterly immigration data.** Policy changes (e.g., changes to immigration policies following the lifting of all federal COVID-19 regulations in 2022), as well as major historical events (e.g., COVID-19) had visible effects on migration in recent years, but other than that, the patterns in immigration remain largely seasonal, with migration tending to peak in the third quarter of the calendar year and bottoming in the first quarter of the year.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.1.jpg"/>
   
 * **The top three sources of immigrants for Canada remain unchanged over the past two decades, while some countries have become a bigger source of migration to Canada over the past decade.** In no particular order, China, India, and the Philippines remain the top three sources of immigration to Canada, with each country taking turns as being the top source. Other countries such as Syria and Nigeria have seen an increase over the past decade, with Syria's increase in particular having been fuelled by the recently concluded Syrian Civil War as well as drastic changes in refugee policies stemming from a change in government in 2015.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.2.jpg"/>
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.3.jpg"/>
 
 ---
 
 ### Categorical Data Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **While, for the most part, the gender ration for most migrant communities nearly mirror the national average, there are some variations by country, on one extreme is Japan with a disporportionately high proportion of women compared to the national average, and on the other extreme is the Republic of Ireland.** If we look at the different provinces and territories, some countries of origin display consistent behaviour like Japan, and for others like Algeria (in Alberta), we’ll observe that there is a much bigger difference.
 
-[Visualization specific to category 2]
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.4.jpg"/>
 
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.5.jpg"/>
+  
+* **Some countries such as China remain a top source of immigrants for each province and territory, while a few interesting exceptions abound, such as the dominance of francophone countries as the top sources of immigrants for Québéc, and the appearance of the United States and the United Kingdom as a top source of immigration for British Columbia.** Variations also exist within each country of origin as well. For example, recent immigrants from the Philippines take up a significant portion of the recent migrant population in places such as Newfoundland and Labrador and NWT, while they are not even a top source of recent migration for Québéc.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.6.jpg"/>
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.7.jpg"/>
+  
+* **It appears that the characteristic of the foreign-born population is more oriented towards working-age adults (where people aged 25-44 years make up the plurality) than the general population (where people older than 45 years make up the plurality).** Even in Nunavut, where the age structure is significantly younger compared to the rest of the country, the pattern still holds.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.8.jpg"/>
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.9.jpg"/>
 
 ### Scatter Plot Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Outside of Montréal, Québéc has quite a low per-capita non-permanent resident population.** For other regions, the results are a mixed bag and we therefore cannot immediately surface any discernible patterns.
 
-[Visualization specific to category 3]
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.10.jpg"/>
+  
+* **Virtually every CMA’s foreign-born population is outpacing their general population’s growth rate, with a bit of regional variation.** BC exhibited the highest general population growth rate, but the Atlantic exhibited the highest foreign-born population growth rate, possibly due to both the federal and provincial governments’ push to attract more immigrants to the Atlantic region in a bid to offset population loss and inter-provincial out migration.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.11.jpg"/>
+  
+* **It appears that migrants of African origin, on a per-capita basis, is comparatively high compared to other CMAs, while it is comparatively lower with migrants of Asian origin.** And to some extent it rings true for the rest of Québéc.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.12.jpg"/>
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.13.jpg"/>
+
+* **The points representing the Prairie CMAs appear to be clustered in a similar area for both Africa and Asia plots.** This insight suggests that they share a similar migration and settlement pattern.
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.14.jpg"/>
 
 
 ### Spatial Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Nunavut by far experienced the fastest non-permanent resident growth from Q3 2022 to Q3 2024.** Although, that could largely be attributed to its small non-permanent resident, but could also signal a shift in government priorities in terms of migration and settlement.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Alberta also experienced high growth.** This is reflective of the province's generally high growth rate in the past few years, both from international migration and inter-provincial migration.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Growth has slowed down for British Columbia and Ontario.** This is reflective of the fact that both provinces lead the country in migration in general, and already had an established foreign-born community (permanent and non-permanent).
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **The Maritime provinces experience relatively little growth.** This is in spite of the increasing popularity of the Maritimes for permanent and non-permanent migration.
 
-[Visualization specific to category 4]
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.15.jpg"/>
 
 ---
 
