@@ -134,7 +134,7 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 [Visualization specific to category 3]
 
 
-### Category 4:
+### Spatial Analysis:
 
 * **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
@@ -150,17 +150,25 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend all levels of government and civic organizations to consider the following: 
 
-* Specific observation that is related to a recommended action. **A country’s consular services can be redirected more towards underserved communities, especially communities with high levels of non-permanent migration such as Nunavut.**
+* There is seasonality observed with migration. **Organizations who are helping migrants integrate in Canadian society should keep this mind so that they can plan their yearly agendas accordingly and accomodate for higher volumes in certain months.**
+
+* China, India, and the Philippines remain the top sources of immigration for Canada, while countries such as Nigeria and Syria have seen an increase over the past few years. **All levels of governments must ensure that, with the high (or increasing) volumes coming from specific countries, they combat any potenial misinformation campaigns targeting those communities, as higher volumes of arrivals coming from certain countries may tend to garner more media attention, and, therefore, increase the likelihood of discriminatory sentiment specific to those communities.**
   
-* Specific observation that is related to a recommended action. **Increase more women-specific migrant resources for certain migrant communities such as the Algeria diaspora in Alberta.**
+* While the gender ratio for recent migrant communities is, for the most part, on par with the Canadian or provincial/territorial averages, there remains anomalies, both at the national and subnational level. **Therefore, more women-specific migrant resources for certain migrant communities such as the Algerian diaspora in Alberta and the Japanese community at the national level should be made available.**
   
-* Specific observation that is related to a recommended action. **Examine Québéc’s unique migration patterns, and explore the different ways its language laws have an effect on them.**
+* Québéc's settlement patterns stand out in comparison with the other provinces, and territories, as, unlike the other provinces, India and the Philippines were not one of Québéc's Top 5 sources of recent immigration, while francophone countries made up 4 of the top 5. **Québéc’s unique migration patterns should be examined further, research on the different ways its language laws have an effect on migration should be conducted, and supports for migrant communities who are more anglophone should be executed.**
+
+* The age structure for the foreign-born population appears to be defined by the plurality of working-age adults (25-44 years) while the age structure for the Canadian-born population is skewed more towards 45 years+. **While it is clear that this is tied to government efforts to utilize immigration to avoid the worst effects of the aging population as seen in countries such as Japan, it must be prepared to adjust accordingly as the foreign-born population slowly becomes part of the aging population in the next few decades.**
+
+* Outside of Montreal, Québéc has quite a low per-capita non-permanent resident population, while the results for other provinces and territories show a mixed bag. **As a previous plot has shown a drastic increase of the non-permanent resident population in the last few years at the national level, Québéc will start to slowly experience that growth as well, and its ministry responsible for immigration will need to have its budget increased accordingly so that its largely homogenous communities outside of the Greater Montréal area can effectively integrate incoming non-permanent residents.**
+
+* Virtually every CMA’s foreign-born population is outpacing their general population’s growth rate, with a bit of regional variation. BC exhibited the highest general population growth rate, but the Atlantic exhibited the highest foreign-born population growth rate. **Similarly with Québéc, the Atlantic provinces' respective immigration ministries will need to have their budgets increased (or such ministries would need to be established if not already established).**
+
+* In Montréal, it appears that migrants of African origin, on a per-capita basis, is comparatively high compared to other CMAs, while it is comparatively lower with migrants of Asian origin. And to some extent it rings true for the rest of Québéc. The cluster of red points from the third scatter plot represent Prairie CMAs, suggesting that they share a similar migration pattern. **These settlement patterns mean that Québéc municipalities should consider funding (or increase funding for) culturally-approporiate integration programs for their African communities, while Parairie municipalities should increase cross-provincial and cross-municipal coopertion in terms of integrating newcomers.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Nunavut has experienced rapid growth rate, but . **Recommendation or general guidance based on this observation.**
+* Nunavut by far experienced the fastest non-permanent resident growth within that time period, although that can largely be attributed to its small non-permanent resident. Alberta also experienced high growth, mirroring its generally high growth as a whole over the past decade. Growth has slowed down for British Columbia and Ontario. Surprisingly, the Maritime provinces experience relatively little growth despite government initiatives to attract immigrants and foreign labour into that region. **Regardless, given the high growth rate of the non-permanent resident population over the past few years across the country, and the vast size of Canada geographically, consulates should consider redirecting more of their resources towards underserved communities, especially communities with high levels of non-permanent migration such as Nunavut.**
   
 ---
 
