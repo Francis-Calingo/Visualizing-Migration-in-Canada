@@ -55,6 +55,8 @@ git clone https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada.git
 cd Visualizing-Migration-in-Canada
 ```
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Data Structure and Initial Checks
@@ -79,6 +81,8 @@ The shapefile has **104 entries (8 fields x 13 records)**.
 It is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
 As you can see, most of the fields are irrelevant in isolation besides FEDENAME, which houses the English names of the ridings *in order* . The csv itself is not needed, the shapefile is. [But it is in this repo for reference](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Shapefile_Features.csv) to better understand the structure of the shapefile as well as the workflow of merging it with the main CSV file to create choropleth maps in Python [Figure 1.2].
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Executive Summary
@@ -94,6 +98,8 @@ With regards to the categorical data analysis, we noticed some consistency with 
 In terms of the scatter plot analysis, clustering was apparent with census metropolitan areas from certain regions (e.g., Prairie CMAs) exhibiting similar migration patterns.
 
 Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 ---
 
@@ -167,6 +173,8 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 
 <img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure3.15.jpg"/>
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Recommendations:
@@ -190,7 +198,9 @@ Based on the insights and findings above, we would recommend all levels of gover
 * In Montréal, it appears that migrants of African origin, on a per-capita basis, is comparatively high compared to other CMAs, while it is comparatively lower with migrants of Asian origin. And to some extent it rings true for the rest of Québéc. The cluster of red points from the third scatter plot represent Prairie CMAs, suggesting that they share a similar migration pattern. **These settlement patterns mean that Québéc municipalities should consider funding (or increase funding for) culturally-approporiate integration programs for their African communities, while Parairie municipalities should increase cross-provincial and cross-municipal coopertion in terms of integrating newcomers.**
   
 * Nunavut by far experienced the fastest non-permanent resident growth within that time period, although that can largely be attributed to its small non-permanent resident. Alberta also experienced high growth, mirroring its generally high growth as a whole over the past decade. Growth has slowed down for British Columbia and Ontario. Surprisingly, the Maritime provinces experience relatively little growth despite government initiatives to attract immigrants and foreign labour into that region. **Regardless, given the high growth rate of the non-permanent resident population over the past few years across the country, and the vast size of Canada geographically, consulates should consider redirecting more of their resources towards underserved communities, especially communities with high levels of non-permanent migration such as Nunavut.**
-  
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Assumptions and Caveats:
@@ -205,6 +215,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 
 * Even though Plotly was heavily used (which ended up being useful for filtering for certain results such as the time-series visualization of Syrian migration to Canada in the past two decades), the project is mostly static in nature and does not fully utilize the interactive capabilities of Plotly. There is an opportunity to scale up this project and productionize it into publically-available interactive graphs and dashboards that can be hosted in websites such as think-tanks, government websites, and civic organizations that cover migration topics).
 
+[<b>Back to Table of Contents</b>](#table-of-contents)
+
 ---
 
 # Credits and Acknowledgements
@@ -218,6 +230,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 "Mapping and Plotting Tools". — GeoPandas, https://geopandas.org/en/stable/docs/user_guide/mapping.html.
 
 "seaborn.FacetGrid". Seaborn. https://seaborn.pydata.org/generated/seaborn.FacetGrid.html
+
+[<b>Back to Table of Contents</b>](#table-of-contents)
 
 =========================================
 
