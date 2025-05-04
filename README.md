@@ -152,11 +152,11 @@ Over the past few years, Nunavut and Alberta experienced the highest non-permane
 
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **A country’s consular services can be redirected more towards underserved communities, especially communities with high levels of non-permanent migration such as Nunavut.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Increase more women-specific migrant resources for certain migrant communities such as the Algeria diaspora in Alberta.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Examine Québéc’s unique migration patterns, and explore the different ways its language laws have an effect on them.**
   
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
