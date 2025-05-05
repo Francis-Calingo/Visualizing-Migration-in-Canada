@@ -91,6 +91,10 @@ cd Visualizing-Migration-in-Canada
 </ul>
 </details>
 
+For the diagram that helps map the workflow of migrating data from Statistics Canada's select datasets to csv files:
+
+<img src="https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/blob/main/Figures/Figure1.1.jpg"/>
+
 The shapefile has **104 entries (8 fields x 13 records)**. 
 
 It is important to note that the shapefile was extracted from a zip file that was downloaded from the Boundary files webpage of Statistics Canada. There are no associated CSVs, so in order to ascertain the fields, the shapefile needed to be exported as a CSV file via QGIS.
@@ -245,6 +249,8 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 "Horizontal and Vertical Lines and Rectangles in Python". Plotly, https://plotly.com/python/horizontal-vertical-shapes/
 
 "Mapping and Plotting Tools". — GeoPandas, https://geopandas.org/en/stable/docs/user_guide/mapping.html.
+
+N. Frerebeau. "Paul Tol’s Color Schemes", R-Packages, 25 February 2025. https://cran.r-project.org/web/packages/khroma/vignettes/tol.html.
 
 "seaborn.FacetGrid". Seaborn. https://seaborn.pydata.org/generated/seaborn.FacetGrid.html
 
