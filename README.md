@@ -89,15 +89,13 @@ As you can see, most of the fields are irrelevant in isolation besides FEDENAME,
 
 ### Overview of Findings
 
-The time-series visualizations showed a rapid increase of migration , particularly  with regards to non-permanent migration as well as people landing from India and Syria.
+* Migration patterns as a whole was characterized by a rapid increase over the past several years, particulalrly with regards to non-permanent residents and people landing from India and Syria (although seasonality is a consistent pattern).
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+* Settlement patterns by province/territory were characterized by some variations of gender ratios for each migrant community, consistency in the top sources of migrants (albeit with some notable exceptions, including the dominance of francophone countries in settlement patterns in Québéc), and a working age plurality (i.e., aged 25-44 years).
 
-With regards to the categorical data analysis, we noticed some consistency with each province and territory's major sources of migrants, with some exceptions (notably Quebec, where their major sources of migrants remain francophone countries). The age distribution is characterized by , with most immigrants falling within the working age range (), while some ethnic groups in certain provinces exhbitied some anomalies with regards to the gender distribution.
+* For the most part, settlement patterns across CMAs are characterized by within-group homogeneity and between-group heterogeneity (i.e., CMAs within the sam region tend to exhibit similar settlement patterns), although all CMAs share the phenomenon that their foreign-born population is growing at a faster rate than their general population.
 
-In terms of the scatter plot analysis, clustering was apparent with census metropolitan areas from certain regions (e.g., Prairie CMAs) exhibiting similar migration patterns.
-
-Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
+* Over the past few years, Nunavut and Alberta experienced the highest non-permanent resident growth rate, while the Atlantic region was surprisingly low in comparison.
 
 [<b>Back to Table of Contents</b>](#table-of-contents)
 
