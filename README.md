@@ -62,19 +62,17 @@ cd Visualizing-Migration-in-Canada
 
 # Data Structure and Initial Checks
 
-https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Time-Series%20Analysis/Non-Permanent%20Migration.csv
-
 | Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Non-Permanent migration by provinces & territory  | **1425**  | 95  | 15  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/main/Non-Permanent%20Migration.csv)  |
-| Quarterly international migration by province & territory  | **1425**  | 95  | 15  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Estimates%20of%20the%20components%20of%20international%20migration%2C%20quarterly.csv) |
-| Census-by-census immigration data from Top 10 Countries of Origin in 2020  | **150**  | 50  | 10 | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Migration%20Timeline%20of%20Top%2010%20Countries%20from%202020.csv) |
-| % of Recent Migrants that identify as woman by country of origin and province & territory  | **2365**  | 55  | 43  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Migration%20Gender%20Breakdown.csv) |
-| Each province & territory's top 5 countries of origin, recent immigrants  | **248**  | 62  | 4  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Top%205%20by%20Province%20%26%20Territory.csv)  |
-| Age breakdown of immigrant population vs. general population, by province & territory  | **840**  | 140  | 6  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Migration%20Age%20Analysis.csv) |
-| Recent immigrants by census metropolitan areas (CMA) | **338**  | 26  | 13  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Recent%20Immigrants%20CMA.csv)  |
-| Total non-permanent residents by census metropolitan areas  | **130**  | 26  | 5  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/Non-Permanent%20Residents%20CMA.csv)  |
-| % Growth rate of CMAs and immigrant population in each CMA | **182**  | 26  | 7  | [Download](https://github.com/Francis-Calingo/Visualizing-Migration-in-Canada/raw/refs/heads/main/CMA%20vs.%20Immigrant%20Growth%20Rate.csv)  |
+| Non-Permanent migration by provinces & territory  | **1425**  | 95  | 15  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Time-Series%20Analysis/Non-Permanent%20Migration.csv)  |
+| Quarterly international migration by province & territory  | **1425**  | 95  | 15  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Time-Series%20Analysis/Estimates%20of%20the%20components%20of%20international%20migration%2C%20quarterly.csv) |
+| Census-by-census immigration data from Top 10 Countries of Origin in 2020  | **150**  | 50  | 10 | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Time-Series%20Analysis/Migration%20Timeline%20of%20Top%2010%20Countries%20from%202020.csv) |
+| % of Recent Migrants that identify as woman by country of origin and province & territory  | **2365**  | 55  | 43  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Categorical%20Data%20Analysis/Migration%20Gender%20Breakdown.csv) |
+| Each province & territory's top 5 countries of origin, recent immigrants  | **248**  | 62  | 4  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Categorical%20Data%20Analysis/Top%205%20by%20Province%20%26%20Territory.csv)  |
+| Age breakdown of immigrant population vs. general population, by province & territory  | **840**  | 140  | 6  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Categorical%20Data%20Analysis/Migration%20Age%20Analysis.csv) |
+| Recent immigrants by census metropolitan areas (CMA) | **338**  | 26  | 13  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Scatter%20Plot%20Analysis/Recent%20Immigrants%20CMA.csv)  |
+| Total non-permanent residents by census metropolitan areas  | **130**  | 26  | 5  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Scatter%20Plot%20Analysis/Non-Permanent%20Residents%20CMA.csv)  |
+| % Growth rate of CMAs and immigrant population in each CMA | **182**  | 26  | 7  | [Download](https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Scatter%20Plot%20Analysis/CMA%20vs.%20Immigrant%20Growth%20Rate.csv)  |
 | **TOTAL** | **7,103**  | 575  | 118  | N/A  |
 
 <details><summary><b>Feature Engineering</b></summary>  
