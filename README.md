@@ -62,6 +62,7 @@ cd Visualizing-Migration-in-Canada
 
 # Data Structure and Initial Checks
 
+https://raw.githubusercontent.com/Francis-Calingo/Visualizing-Migration-in-Canada/main/CSVs%20for%20Time-Series%20Analysis/Non-Permanent%20Migration.csv
 
 | Data Content  | Number of Entries (Records x Field) | Number of Records  | Number of Fields | Download File Link |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
